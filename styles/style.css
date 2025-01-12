@@ -3,4 +3,85 @@
     margin: 0;
     padding: 0;
     font-family: "Fira Sans", serif;
+    max-width: 1349px;
+}
+
+.full-width{
+    background-color: #f5f5f5;
+    width: 100%;
+}
+.primary-btn{
+    background-color: #006A50;
+    padding: 9px 25px;
+    font-size: 18px;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+}
+
+.primary-btn:hover{
+    background-color: #ffffff;
+    /* border: #006A50 2px solid; */
+    color: #057559;
+    display: block;
+}
+/* nav style */
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    width: 80%;
+    margin: 0 10%;
+}
+.nav-item h3{
+    font-weight: bold;
+    color: #0E0E0E;
+    font-size: 32px;
+}
+.sign-btn{
+    background-color: ;
+    color: #006A50;
+    border-radius: 8px;
+    font-weight: semibold;
+    font-size: 18px;
+    border: #006A50 solid 2px;
+    padding: 9px 25px;
+}
+.sign-btn:hover{
+    background-color: #057559;
+    color: #ffffff;
+}
+
+/* banner section style */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    width: 80%;
+    margin: 0px 10%;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+}
+.header-content{
+    margin: 40px 30px;
+}
+.header-content h4{
+    color: #0E0E0E;
+    font-size: 24px;
+    font-weight: medium;
+    opacity: 50%;
+    margin-bottom: 14px;
+}
+.header-content h2{
+    font-size: 45px;
+    color: #0E0E0E;
+    margin-bottom: 20Px;
+}
+.header-img{
+    margin: 40px 30px;
+    width: 475px;
+    height: 400px;
 }
