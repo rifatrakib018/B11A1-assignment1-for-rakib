@@ -132,3 +132,117 @@
     font-weight: normal;
     opacity: 70%;
 }
+/* card section */
+.card{
+    width: 80%;
+    margin: 40px 10%;
+}
+.card-heading img{
+    height: 64px;
+    width: 64px;
+}
+.card-heading h2{
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.card-heading p{
+    color: #0E0E0E;
+    font-size: 16px;
+    font-weight: normal;
+    opacity: 70%;
+}
+
+.card-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+    gap: 24px;
+}
+
+.card-item{
+    border-radius: 16px;
+    border: none;
+    padding: 30px;
+    width: 300px;
+    height: 250px;
+}
+.card-item h3{
+    color: #0E0E0E;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    opacity: 80%;
+}
+.card-item p{
+    color: #0E0E0E;
+    font-size: 16px;
+    font-weight: normal;
+    opacity: 70%;
+}
+.yellow{
+    background: #F7EBCF;
+}
+.blue{
+    background: #acc4ec;
+}.green{
+    background: #C6E4D6;
+}
+.card-btn{
+    margin: 30px 0px;
+}
+.btn-yellow{
+    background-color: #FFC239;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: semi-bold;
+}
+
+.btn-yellow:hover{
+    background-color: #ffffff;
+    color: #ffB529;
+}
+.btn-blue{
+    background-color: #5490F5;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: semi-bold;
+}
+
+.btn-blue:hover{
+    background-color: #ffffff;
+    color: #5490F5;
+}
+/* quote section */
+
+.quote{
+    width: 80%;
+    margin: 40px 10%;
+    background-color: #ffffff;
+    border-radius: 16px;
+    height: 260px;
+    box-shadow: 2px 2px 8px #1f1f1f ;
+}
+.quote-content{
+    background-image: url("./assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding: 48px 24px;
+}
+.quote-content p{
+    color: #0E0E0E;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    line-height: 24px;
+    opacity: 80%;
+}
+.quote-content h4{
+    color: #0E0E0E;
+    font-size: 22px;
+    font-weight: semi-bold;
+    margin-bottom: 10px;
+    opacity: 80%;
+}
